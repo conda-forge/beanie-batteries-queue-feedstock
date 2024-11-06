@@ -1,5 +1,5 @@
 {% set name = "beanie-batteries-queue" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/beanie_batteries_queue-{{ version }}.tar.gz
-  sha256: d63bd50a44bcaf7d89fda7d8bc165bbf5ecbbe012c440ba1955e9151d4e057b3
+  sha256: a5f548a2f040ca1737b239e2052316e331b491f36487578712d8e0525d2ecfcb
 
 build:
   noarch: python
