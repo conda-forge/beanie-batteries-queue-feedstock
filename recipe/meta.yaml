@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pydantic <2
+    - pydantic
     - beanie >=1.20
 
 test:
